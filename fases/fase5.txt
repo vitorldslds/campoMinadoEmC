@@ -1,0 +1,2 @@
+dificuldade=5
+numBombas=18

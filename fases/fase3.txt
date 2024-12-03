@@ -1,0 +1,2 @@
+dificuldade=3
+numBombas=14

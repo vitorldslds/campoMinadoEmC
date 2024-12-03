@@ -1,0 +1,2 @@
+dificuldade=2
+numBombas=12

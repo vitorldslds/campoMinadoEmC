@@ -1,0 +1,24 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/teste123/Desktop/jogoAA/campoMinado'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _inicializarJogo, symObjAddr: 0x0, symBinAddr: 0x100000FA0, symSize: 0xC0 }
+  - { offset: 0x3F, size: 0x8, addend: 0x0, symName: _tam, symObjAddr: 0xCC8, symBinAddr: 0x100003000, symSize: 0x0 }
+  - { offset: 0x5D, size: 0x8, addend: 0x0, symName: _salvarPontuacao, symObjAddr: 0x830, symBinAddr: 0x1000017D0, symSize: 0x50 }
+  - { offset: 0x82, size: 0x8, addend: 0x0, symName: _salvarPontuacao.ultimosPontos, symObjAddr: 0x2E80, symBinAddr: 0x100003010, symSize: 0x0 }
+  - { offset: 0x97, size: 0x8, addend: 0x0, symName: _salvarPontuacao.indicePontos, symObjAddr: 0x2EA8, symBinAddr: 0x100003038, symSize: 0x0 }
+  - { offset: 0xC7, size: 0x8, addend: 0x0, symName: _jogo, symBinAddr: 0x100003040, symSize: 0x0 }
+  - { offset: 0x117, size: 0x8, addend: 0x0, symName: _inicializarJogo, symObjAddr: 0x0, symBinAddr: 0x100000FA0, symSize: 0xC0 }
+  - { offset: 0x149, size: 0x8, addend: 0x0, symName: _sortearBombas, symObjAddr: 0xC0, symBinAddr: 0x100001060, symSize: 0xC0 }
+  - { offset: 0x1A5, size: 0x8, addend: 0x0, symName: _coordenadaEhValida, symObjAddr: 0x180, symBinAddr: 0x100001120, symSize: 0x60 }
+  - { offset: 0x1DB, size: 0x8, addend: 0x0, symName: _quantidadeBombasVizinhas, symObjAddr: 0x1E0, symBinAddr: 0x100001180, symSize: 0xF0 }
+  - { offset: 0x27A, size: 0x8, addend: 0x0, symName: _contarBombas, symObjAddr: 0x2D0, symBinAddr: 0x100001270, symSize: 0x90 }
+  - { offset: 0x2AC, size: 0x8, addend: 0x0, symName: _imprimir, symObjAddr: 0x360, symBinAddr: 0x100001300, symSize: 0x180 }
+  - { offset: 0x2DE, size: 0x8, addend: 0x0, symName: _abrirCelula, symObjAddr: 0x4E0, symBinAddr: 0x100001480, symSize: 0x120 }
+  - { offset: 0x310, size: 0x8, addend: 0x0, symName: _ganhou, symObjAddr: 0x600, symBinAddr: 0x1000015A0, symSize: 0xC0 }
+  - { offset: 0x354, size: 0x8, addend: 0x0, symName: _pontuacao, symObjAddr: 0x6C0, symBinAddr: 0x100001660, symSize: 0xD0 }
+  - { offset: 0x3A6, size: 0x8, addend: 0x0, symName: _exibirLista, symObjAddr: 0x790, symBinAddr: 0x100001730, symSize: 0xA0 }
+  - { offset: 0x402, size: 0x8, addend: 0x0, symName: _lerFase, symObjAddr: 0x880, symBinAddr: 0x100001820, symSize: 0xD0 }
+  - { offset: 0x462, size: 0x8, addend: 0x0, symName: _jogar, symObjAddr: 0x950, symBinAddr: 0x1000018F0, symSize: 0x1E0 }
+  - { offset: 0x4BE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xB30, symBinAddr: 0x100001AD0, symSize: 0x182 }
+...

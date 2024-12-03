@@ -1,0 +1,2 @@
+dificuldade=4
+numBombas=16
